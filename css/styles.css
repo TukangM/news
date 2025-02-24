@@ -1,5 +1,8 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans?styles=20575,20581,20578,20576,20577,20573,20584,20582,20583,20574,20580,20579');
+@import url('https://fonts.cdnfonts.com/css/mytupi?styles=33798,33799,33800');
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Mytupi', sans-serif;
+    font-weight: 700;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -16,31 +19,109 @@ header h1 {
     margin: 0;
 }
 
+nav {
+    background-color: #fff;
+    height: 100%;
+    border-left: 1px solid #e0e0e0;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    border-right: 1px solid #e0e0e0;
+    font-family: 'Product Sans', sans-serif;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
+    padding: 0 16px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    background-color: #f4f4f4;
+    color: #cc0000;
 }
 
 main {
     padding: 2rem;
 }
 
-footer {
+
+.top-header {
+    background-color: #fff;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    justify-content: space-around;
+}
+
+.logo {
+    padding: 0 20px;
+}
+
+.logo h1 {
+    color: #cc0000;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.headline {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.main-story img {
+    width: 100%;
+    height: auto;
+}
+
+.top-stories {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.footer-content {
     background-color: #333;
     color: #fff;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.copyright {
+    background-color: #222;
+    color: #fff;
     text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 1rem;
 }

@@ -7,32 +7,34 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Veritas News</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Politik</a></li>
-                <li><a href="#">Ekonomi</a></li>
-                <li><a href="#">Teknologi</a></li>
-                <li><a href="#">Hiburan</a></li>
-                <li><a href="#">Olahraga</a></li>
-            </ul>
-        </nav>
+    <header id="header-container">
+        <!-- load header by js -->
     </header>
     <main>
-        <section>
-            <h2>Artikel Terbaru</h2>
-            <article>
-                <h3>Judul Artikel</h3>
-                <p>Ringkasan artikel...</p>
-                <a href="articles/example-article.html">Baca Selengkapnya</a>
+        <section class="headline">
+            <article class="main-story">
+                <img src="images/headline.jpg" alt="Headline Image">
+                <h2>Judul Utama: Berita Terkini</h2>
+                <p>Ringkasan berita utama yang menarik perhatian publik...</p>
+                <a href="articles/headline.html">BACA SELENGKAPNYA →</a>
             </article>
-            <!-- Tambahkan lebih banyak artikel di sini -->
+            <div class="top-stories">
+                <h3>BERITA POPULER</h3>
+                <article>
+                    <img src="images/story1.jpg" alt="Story 1">
+                    <h4>Berita Politik Terkini</h4>
+                    <p>Ringkasan berita politik...</p>
+                </article>
+                <article>
+                    <img src="images/story2.jpg" alt="Story 2">
+                    <h4>Perkembangan Ekonomi</h4>
+                    <p>Ringkasan berita ekonomi...</p>
+                </article>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 PT Veritas Media Digital. Semua hak dilindungi.</p>
+    <footer id="footer-container">
+        <!-- load footer by js -->
     </footer>
     <script src="js/scripts.js"></script>
 </body>

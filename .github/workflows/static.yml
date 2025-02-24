@@ -5,6 +5,20 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+    paths:
+      - '**/*.html'
+      - '**/*.css'
+      - '**/*.scss'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.txt'
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+      - '**/*.gif'
+      - '**/*.svg'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
