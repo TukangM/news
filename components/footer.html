@@ -1,13 +1,12 @@
 <style>
     footer {
-    background-color: #333;
-    color: #fff;
-    text-align: justify;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    font-weight: 400;
+        background-color: #333;
+        color: #fff;
+        text-align: justify;
+        padding: 0rem 0;
+        width: 100%;
+        font-weight: 400;
+        /* hapus position: fixed dan bottom: 0 */
     }
 
     .footer-content {
@@ -18,9 +17,8 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         justify-content: space-around;
-        align-items: center;
+        align-items: start; /* ubah dari center ke start */
         justify-items: center;
-        
     }
 
     .footer-section h5 {
@@ -64,9 +62,9 @@
         <h5>Tentang Kami</h5>
         <p>PT Veritas Media Digital</p>
         <div class="contact-info">
-            <p>Email: info@veritasnews.com</p>
+            <p>Email: info@veritas.co.id</p>
             <p>Telp: (021) 555-0123</p>
-            <p>Alamat: Jl. Contoh No. 123, Jakarta</p>
+            <p>Alamat: Jl. Ahmad Dahlan No. 11, Papua</p>
         </div>
     </div>
     <div class="footer-section">
